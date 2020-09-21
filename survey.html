@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Fork Me! FCC: Test Suite Template</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<main>
+  <h1 id="title">Customer Survey</h1>
+    <p id="description">Please share with us some information about your experience</p>
+
+    <form id="survey-form">
+      <label id="name-label">Name<br>
+      <input id="name" type="name" placeholder="Enter your name" required>
+
+    <br><label id="email-label">Email<br>
+      <input id="email" type="email"  placeholder="Enter your email" required>
+
+    <br><label id="number-label">Number<br>
+      <input id="number" input min="1" input max="110" type="number" placeholder="Enter your number" required><br>
+
+        <label for="satisfaction">How satisfied are you with the experience?</label><br>
+
+        <select name="satisfaction" id="dropdown">
+          <option value="">--Please choose an option--</option>
+         <option value="not satisfied">Not Satisfied</option>
+          <option value="satisfied">Satisfied</option>
+          <option value="very satisfied">Very Satisfied</option>
+        </select><br>
+        <p>How likely are you to recommend our hotel to a friend?<p>
+       <label for="not-recommend"><input id="recommend" type="radio" name="recommend-not-recommend" value="not-recommend">Not Recommend</label><br>
+      <label for="recommend"><input id="recommend" type="radio" name="recommend-not-recommend" value="recommend">Recommend</label><br>
+        <p>What would you like to see improved?</p>
+        <label for="cleanliness"><input id="cleanliness" type="checkbox" name="improvements" value="cleanliness">Cleanliness</label><br>
+         <label for="guest-service"><input id="guest-service" type="checkbox" name="improvements" value="guest-service">Guest Service</label><br>
+         <label for="amenities"><input id="amenities" type="checkbox" name="improvements" value="amenities">Amenities</label><br>
+
+        <br>
+        <label for="comments">Additional comments</label><br>
+        <textarea id="comments" name="comments" rows="4" cols="50">Please provide any additional comments or recommendations.
+        </textarea>
+        <br>
+        <button type="submit" id="submit">Submit</button>
+    </form>
+
+</main>
+<!-- partial -->
+
+</body>
+</html>
