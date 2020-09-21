@@ -1,0 +1,16 @@
+body {
+  font-family: sans-serif;
+  padding-left: 40%;
+  padding-right: 20%;
+  background-color: rgb(255, 251, 247);
+}
+
+label {
+  font-size: 17px;
+  display: block;
+  background-color:rgb(252, 235, 217);
+}
+
+input {
+  width: 40%;
+}
